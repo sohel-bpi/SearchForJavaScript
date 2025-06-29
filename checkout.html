@@ -1,0 +1,49 @@
+<!-- checkout page start -->
+    <section class="container py-4">
+        <h2 class="text-center">
+            <span class="border border-3 border-dark border-start-0 border-end-0 border-top-0">Checkout Page</span>
+        </h2>
+        <div class="row gy-4">
+            <div class="col-lg-8">
+                <div class="row align-items-center checkout-details border">
+                    <div class="col-3">
+                        <img src="Images/product-02.webp" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-4">
+                        <h4>Xiaomi Mobile Phone</h4>
+                        <p>Brand: Xiaomi</p>
+                    </div>
+                    <div class="col-3">
+                        <form action="" class="d-flex">
+        <button type="button" class="btn btn-outline-success" onclick="decrement()">-</button>
+        <input type="text" name="quantity" id="quantity" class="form-control  text-center">
+        <button type="button"  class="btn btn-outline-success" onclick="increment()">+</button>
+                        </form>
+                    </div>
+                    <div class="col-2">
+                         <p> <span id="price">20000</span> BDT</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="checkout-summary">
+                    <table class="table">
+                        <tr>
+                            <td>Subtotal</td>
+                            <td><span id="subTotal">20000</span> TK</td>
+                        </tr>
+                        <tr>
+                            <td>Delivery Fee</td>
+                            <td><span id="deliveryCharge">50</span> TK</td>
+                        </tr>
+                        <tr>
+                            <td>Payable Total</td>
+                            <td><span id="totalPayable">20050</span> TK</td>
+                        </tr>
+                    </table>
+                    <a href="" class="btn btn-outline-success d-block w-100">Order Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- checkout page end -->
